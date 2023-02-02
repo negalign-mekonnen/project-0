@@ -1,0 +1,134 @@
+/*Google search and Google image css*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 15px;
+    
+}
+.navbar > a{
+    color: black;
+    font-size: 17px;
+    color:#3c4043;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+   
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+
+}
+#gimg{
+    margin-top: 70px;
+}
+.centre div{
+    padding: 15px;
+}
+#big{
+   
+    width: 550px;
+    outline: none;
+    height: 35px;
+    border: 1px solid #dfe1e5;
+    background-color: #fff;
+    border-radius: 50px;
+    text-indent: 30px;
+}
+.searchbtn{
+    position:absolute;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: -547px;
+    opacity: 0.7;
+}
+#big:hover{
+    box-shadow: 1px 1px 8px #dfe1e5;
+}
+
+.btn>input,button{
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border:1px solid #f8f9fa;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#3c4043;
+    transition: background-color 0.1s ease-in-out, border 0.1s ease-in-out;
+    
+}
+.btn{
+    display: flex;
+    gap: 12px;
+    
+}
+.btn input:hover,button:hover{
+    border: 1px solid #dfe1e5;
+}
+.h1-advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.line{
+    border-bottom:1px solid #ebebeb;
+}
+.div-advanced{
+    font-size: 16px;
+    margin:50px;
+    color: rgb(41, 36, 36);
+}
+.div-advanced h2{
+    font-weight: 100;
+    font-style: normal;
+}
+.row-input{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+    width: 180px;
+}
+.right input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 550px;
+    padding: 1px 8px;
+}
+.btn-advanced{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 11px;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 765px;
+}
+.btn-advanced:hover{
+    box-shadow: 1px 1px 5px #4d90fe;
+    
+}
+
